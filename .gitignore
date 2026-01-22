@@ -1,0 +1,54 @@
+# Python
+
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+venv39/
+*.egg-info/
+
+# 学習済みモデル（サイズが大きいため）
+
+
+outputs/models/
+*.bin
+*.pt
+*.pth
+
+# データキャッシュ
+
+
+.cache/
+*.cache
+
+# Hugging Face cache
+
+
+.huggingface/
+
+# Jupyter Notebook
+
+
+.ipynb_checkpoints/
+
+# IDE
+
+
+.vscode/
+.idea/
+
+# OS
+
+
+.DS_Store
+Thumbs.db
+
+# ログファイル
+
+
+*.log
+myenv/

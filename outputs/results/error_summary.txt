@@ -1,0 +1,26 @@
+================================================================================
+ERROR ANALYSIS SUMMARY
+================================================================================
+
+[BERT]
+--------------------------------------------------------------------------------
+True Positive:  417
+True Negative:  391
+False Positive: 37 (FPR: 0.0864)
+False Negative: 27 (FNR: 0.0608)
+
+Confidence Statistics:
+  Correct predictions - Mean: 0.9928, Std: 0.0346
+  Incorrect predictions - Mean: 0.9424, Std: 0.1174
+
+[fastText]
+--------------------------------------------------------------------------------
+True Positive:  387
+True Negative:  316
+False Positive: 112 (FPR: 0.2617)
+False Negative: 57 (FNR: 0.1284)
+
+Confidence Statistics:
+  Correct predictions - Mean: 0.9377, Std: 0.1152
+  Incorrect predictions - Mean: 0.8311, Std: 0.1590
+
